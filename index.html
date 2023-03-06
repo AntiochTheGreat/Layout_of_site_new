@@ -5,100 +5,159 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Services</title>
-    <link href="#" rel="stylesheet" type="css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;700;900&display=swap"
+          rel="stylesheet">
 </head>
 <body>
-    <header>
-        <img src="images/logo.svg" alt="logo">
-        <p>BuhOne</p>
+    <header class="header container">
+        <img class="header-img" src="images/logo.svg" alt="logo">
+        <p class="header-title">BuhOne</p>
         <ul>
           <li>
-            <a href="tel:81112223344">
+            <a class="header-contact-link" href="tel:81112223344">
               <img src="./images/phone.svg" alt="phone">
-              <span>8 (111) 222-33-44</span>
+              <span class="header-contact-text">8 (111) 222-33-44</span>
             </a>
           </li>
           <li>
             <img src="./images/clock.svg" alt="clock">
-            <span>Mon-Fri 10:00-18:00</span>
+            <span class="header-contact-text">Mon-Fri 10:00-18:00</span>
           </li>
           <li>
-            <a href="mailto:order@buhone.ru">
+            <a class="header-contact-link" href="mailto:order@buhone.ru">
               <img src="./images/envelope_blue.svg" alt="envelope-blue">
-              <span>order@buhone.ru</span>
+              <span class="header-contact-text">order@buhone.ru</span>
             </a>
           </li>
           <li>
               <img src="./images/mark.svg" alt="mark">
-              <span>Nevsky Ave 130</span>
+              <span class="header-contact-text">Nevsky Ave 130</span>
           </li>
         </ul>
         <nav>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">services</a></li>
-                <li><a href="#">cases</a></li>
-                <li><a href="#">about company</a></li>
-                <li><a href="#">contacts</a></li>
+                <li><a class="header-nav-link" href="#">Home</a></li>
+                <li><a class="header-nav-link" href="#">services</a></li>
+                <li><a class="header-nav-link" href="#">cases</a></li>
+                <li><a class="header-nav-link" href="#">about company</a></li>
+                <li><a class="header-nav-link" href="#">contacts</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <section>
-            <h1>Accounting services in St. Petersburg</h1>
-            <a href="#">Our presentation</a>
+        <section class="desc">
+            <div class="container">
+                <h1 class="desc-title">Accounting services in St. Petersburg</h1>
+                <a class="desc-link" href="#">Our presentation</a>
+            </div>
         </section>
-        <section>
-            <h2>Our services</h2>
-            <p>We specialize in this</p>
-            <ul>
-                <li><a href="#"><h3>Accounting service</h3></a></li>
-                <li><a href="#"><h3>Accounting service</h3></a></li>
-                <li><a href="#"><h3>Accounting service</h3></a></li>
-                <li><a href="#"><h3>Accounting service</h3></a></li>
-                <li><a href="#"><h3>Accounting service</h3></a></li>
-                <li><a href="#"><h3>Accounting service</h3></a></li>
-            </ul>
+        <section class="service">
+            <div class="container">
+                <h2 class="section-title">Our services</h2>
+                <p class="section-sub-title service-sub-title">We specialize in this</p>
+                <ul class="service-list">
+                    <li class="service-item">
+                        <a class="service-item-link" href="#">
+                            <h3 class="service-item-title">Accounting service</h3>
+                        </a>
+                    </li>
+                    <li class="service-item">
+                        <a class="service-item-link" href="#">
+                            <h3 class="service-item-title">Accounting service</h3>
+                        </a>
+                    </li>
+                    <li class="service-item">
+                        <a class="service-item-link" href="#">
+                            <h3 class="service-item-title">Accounting service</h3>
+                        </a>
+                    </li>
+                    <li class="service-item">
+
+                        <a class="service-item-link" href="#">
+                            <h3 class="service-item-title">Accounting service</h3>
+                        </a>
+                    </li>
+                    <li class="service-item">
+                        <a class="service-item-link" href="#">
+                            <h3 class="service-item-title">Accounting service</h3>
+                        </a>
+                    </li>
+                    <li class="service-item">
+                        <a class="service-item-link" href="#">
+                            <h3 class="service-item-title">Accounting service</h3>
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </section>
-        <section>
-            <h2>About Us</h2>
-            <p>IvanovProm Company</p>
-            <p>
-                Lorem Ipsum is fish text often used in print and web design.
-                Lorem Ipsum has been the standard "fish" for Latin texts since the early 16th century.
-                At the time, an unnamed printer created a large collection of font sizes and shapes,
-                using Lorem Ipsum to print samples.
-                Lorem Ipsum not only successfully survived five centuries without noticeable changes,
-                but also stepped into electronic design.
-            </p>
-            <ul>
-                <li><h3>90</h3><p>Major deals completed</p><a href="#"><p>All cases</p></a></li>
-                <li><h3>90</h3><p>Major deals completed</p><a href="#"><p>All cases</p></a></li>
-                <li><h3>90</h3><p>Major deals completed</p><a href="#"><p>All cases</p></a></li>
-                <li><h3>90</h3><p>Major deals completed</p><a href="#"><p>All cases</p></a></li>
-            </ul>
+        <section class="company">
+            <div class="container flex">
+                <div class="half-width">
+                    <h2 class="section-title">About Us</h2>
+                    <p class="section-sub-title-blue">IvanovProm</p>
+                    <p class="section-sub-title company-subtitle">Company</p>
+                    <p class="company-text">
+                        Lorem Ipsum is fish text often used in print and web design.
+                        Lorem Ipsum has been the standard "fish" for Latin texts since the early 16th century.
+                        At the time, an unnamed printer created a large collection of font sizes and shapes,
+                        using Lorem Ipsum to print samples.
+                        Lorem Ipsum not only successfully survived five centuries without noticeable changes,
+                        but also stepped into electronic design.
+                    </p>
+                </div>
+                <div class="half-width wrp-padding">
+                    <ul class="company-list">
+                        <li class="company-item">
+                            <p class="company-item-text">90</p>
+                            <h3 class="company-item-subtitle">Major deals completed</h3>
+                            <a class="company-item-link" href="#">All cases</a>
+                        </li>
+                        <li class="company-item">
+                            <p class="company-item-text">90</p>
+                            <h3 class="company-item-subtitle">Major deals completed</h3>
+                            <a class="company-item-link" href="#">All cases</a>
+                        </li>
+                        <li class="company-item">
+                            <p class="company-item-text">90</p>
+                            <h3 class="company-item-subtitle">Major deals completed</h3>
+                            <a class="company-item-link" href="#">All cases</a>
+                        </li>
+                        <li class="company-item">
+                            <p class="company-item-text">90</p>
+                            <h3 class="company-item-subtitle">Major deals completed</h3>
+                            <a class="company-item-link" href="#">All cases</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </section>
-        <section>
-            <h2>Our clients</h2>
-            <p>Work with us</p>
-            <ul>
-                <li><a href="#"><img src="./images/logo_microsoft.webp" alt="logo_microsoft"></a></li>
-                <li><a href="#"><img src="./images/logo_microsoft.webp" alt="logo_microsoft"></a></li>
-                <li><a href="#"><img src="./images/logo_microsoft.webp" alt="logo_microsoft"></a></li>
-                <li><a href="#"><img src="./images/logo_microsoft.webp" alt="logo_microsoft"></a></li>
-                <li><a href="#"><img src="./images/logo_microsoft.webp" alt="logo_microsoft"></a></li>
-                <li><a href="#"><img src="./images/logo_microsoft.webp" alt="logo_microsoft"></a></li>
-                <li><a href="#"><img src="./images/logo_microsoft.webp" alt="logo_microsoft"></a></li>
-                <li><a href="#"><img src="./images/logo_microsoft.webp" alt="logo_microsoft"></a></li>
-            </ul>
+        <section class="clients">
+            <div class="container">
+                <h2 class="section-title">Our clients</h2>
+                <p class="section-sub-title clients-subtitle">Work with us</p>
+                <ul class="clients-list">
+                    <li><a class="clients-item-link" href="#"><img src="./images/logo_microsoft.webp" alt="logo_microsoft"></a></li>
+                    <li><a class="clients-item-link" href="#"><img src="./images/logo_microsoft.webp" alt="logo_microsoft"></a></li>
+                    <li><a class="clients-item-link" href="#"><img src="./images/logo_microsoft.webp" alt="logo_microsoft"></a></li>
+                    <li><a class="clients-item-link" href="#"><img src="./images/logo_microsoft.webp" alt="logo_microsoft"></a></li>
+                    <li><a class="clients-item-link" href="#"><img src="./images/logo_microsoft.webp" alt="logo_microsoft"></a></li>
+                    <li><a class="clients-item-link" href="#"><img src="./images/logo_microsoft.webp" alt="logo_microsoft"></a></li>
+                    <li><a class="clients-item-link" href="#"><img src="./images/logo_microsoft.webp" alt="logo_microsoft"></a></li>
+                    <li><a class="clients-item-link" href="#"><img src="./images/logo_microsoft.webp" alt="logo_microsoft"></a></li>
+                </ul>
+            </div>
         </section>
-        <section>
-            <h2>Reviews</h2>
-            <p>Your thanks</p>
-            <button type="button">Leave feedback</button>
+        <section class="review container">
+            <h2 class="section-title">Reviews</h2>
+            <p class="section-sub-title">Your thanks</p>
+            <button class="button review-button" type="button">Leave feedback</button>
             <ul>
-                <li>
-                    <p>
+                <li class="review-item">
+                    <p class="review-item-text">
                         Lorem Ipsum is fish text often used in print and web design.
                         Lorem Ipsum has been the standard "fish" for Latin texts since the early 16th century.
                         At the time, an unnamed printer created a large collection of font sizes and shapes,
@@ -107,11 +166,11 @@
                         but also stepped into electronic design.
                     </p>
                     <img src="./images/face.webp" alt="face">
-                    <p>Ekaterina Ivanova</p>
-                    <p>Director of LLC "One-Two"</p>
+                    <p class="review-item-author">Ekaterina Ivanova</p>
+                    <p class="review-item-position">Director of LLC "One-Two"</p>
                 </li>
-                <li>
-                    <p>
+                <li class="review-item display-none">
+                    <p class="review-item-text">
                         Lorem Ipsum is fish text often used in print and web design.
                         Lorem Ipsum has been the standard "fish" for Latin texts since the early 16th century.
                         At the time, an unnamed printer created a large collection of font sizes and shapes,
@@ -120,11 +179,11 @@
                         but also stepped into electronic design.
                     </p>
                     <img src="./images/face.webp" alt="face">
-                    <p>Ekaterina Ivanova</p>
-                    <p>Director of LLC "One-Two"</p>
+                    <p class="review-item-author">Ekaterina Ivanova</p>
+                    <p class="review-item-position">Director of LLC "One-Two"</p>
                 </li>
-                <li>
-                    <p>
+                <li class="review-item display-none">
+                    <p class="review-item-text">
                         Lorem Ipsum is fish text often used in print and web design.
                         Lorem Ipsum has been the standard "fish" for Latin texts since the early 16th century.
                         At the time, an unnamed printer created a large collection of font sizes and shapes,
@@ -133,11 +192,11 @@
                         but also stepped into electronic design.
                     </p>
                     <img src="./images/face.webp" alt="face">
-                    <p>Ekaterina Ivanova</p>
-                    <p>Director of LLC "One-Two"</p>
+                    <p class="review-item-author">Ekaterina Ivanova</p>
+                    <p class="review-item-position">Director of LLC "One-Two"</p>
                 </li>
-                <li>
-                    <p>
+                <li class="review-item display-none">
+                    <p class="review-item-text">
                         Lorem Ipsum is fish text often used in print and web design.
                         Lorem Ipsum has been the standard "fish" for Latin texts since the early 16th century.
                         At the time, an unnamed printer created a large collection of font sizes and shapes,
@@ -146,54 +205,76 @@
                         but also stepped into electronic design.
                     </p>
                     <img src="./images/face.webp" alt="face">
-                    <p>Ekaterina Ivanova</p>
-                    <p>Director of LLC "One-Two"</p>
+                    <p class="review-item-author">Ekaterina Ivanova</p>
+                    <p class="review-item-position">Director of LLC "One-Two"</p>
                 </li>
             </ul>
             <ul>
-                <li><button type="button">1</button></li>
-                <li><button type="button">2</button></li>
-                <li><button type="button">3</button></li>
-                <li><button type="button">4</button></li>
+                <li><button class="review-slider-button" type="button"></button></li>
+                <li><button class="review-slider-button" type="button"></button></li>
+                <li><button class="review-slider-button review-slider-button-active" type="button"></button></li>
+                <li><button class="review-slider-button" type="button"></button></li>
             </ul>
             <ul>
-                <button type="button" disabled><img src="./images/arrow_left.svg" alt="arrow_left"></button>
-                <button type="button"><img src="./images/arrow_right.svg" alt="arrow_right"></button>
+                <button class="review-slider-arrow" type="button" disabled>
+                    <img src="./images/arrow_left.svg" alt="arrow_left">
+                </button>
+                <button class="review-slider-arrow review-slider-button-active" type="button">
+                    <img src="./images/arrow_right.svg" alt="arrow_right">
+                </button>
             </ul>
         </section>
-        <section>
-            <h2>Our advantages</h2>
-            <p>We offer you</p>
-            <ul>
-                <li><img src="./images/quality.svg" alt="quality"><p>Quality</p></li>
-                <li><img src="./images/speed.svg" alt="speed"><p>Speed</p></li>
-                <li><img src="./images/expert.svg" alt="expert"><p>Expert</p></li>
-            </ul>
+        <section class="advantage">
+            <div class="container">
+                <h2 class="section-title">Our advantages</h2>
+                <p class="section-sub-title advantage-sub-title">We offer you</p>
+                <ul class="advantage-list">
+                    <li class="advantage-item">
+                        <img class="advantage-img" src="./images/quality.svg" alt="quality" width="114" height="126">
+                        <p class="advantage-item-text">Quality</p>
+                    </li>
+                    <li class="advantage-item">
+                        <img class="advantage-img" src="./images/speed.svg" alt="speed" width="132" height="126">
+                        <p class="advantage-item-text">Speed</p>
+                    </li>
+                    <li class="advantage-item">
+                        <img class="advantage-img" src="./images/expert.svg" alt="expert" width="132" height="126">
+                        <p class="advantage-item-text">Expert</p>
+                    </li>
+                </ul>
+            </div>
         </section>
     </main>
-    <footer>
-        <div>
-            <h2>Contact Us</h2>
-            <p>Do you have any questions? Write to us - we will answer as soon as possible!</p>
-            <ul>
-                <li>
-                    <a href="tel:81112223344">
-                        <img src="./images/landline_phone.svg" alt="landline_phone">
-                        <span>+7 (111) 222-33-44</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="mailto:order@buhone.ru">
-                        <img src="./images/envelope.svg" alt="envelope-blue">
-                        <span>order@bu-one.ru</span>
-                    </a>
-                </li>
-            </ul>
+    <footer class="footer">
+        <div class="footer-bkg">
+            <div class="container">
+                <div class="footer-wrp flex">
+                    <div class="half-width">
+                        <h2 class="section-sub-title white footer-sub-title">Contact Us</h2>
+                        <p class="footer-item-text footer-question">Do you have any questions? Write to us - we will answer as soon as possible!</p>
+                        <ul class="flex">
+                            <li>
+                                <a class="footer-item-link" href="tel:81112223344">
+                                    <img src="./images/landline_phone.svg" alt="landline_phone">
+                                    <span class="footer-item-text">+7 (111) 222-33-44</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="footer-item-link" href="mailto:order@buhone.ru">
+                                    <img src="./images/envelope.svg" alt="envelope-blue">
+                                    <span class="footer-item-text">order@bu-one.ru</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="half-width wrp-padding">
+                        form
+                        <button class="button">Send a message</button>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div>
-            form
-        </div>
-        <div>
+        <div class="footer-below-text container">
             <p>2019 (c) All rights reserved. BuhOne.ru</p>
             <p>Designed by: Buhone</p>
         </div>
